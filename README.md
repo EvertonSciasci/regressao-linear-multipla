@@ -84,4 +84,29 @@ Através dos gráficos de dispersão há indicativos de que todas as covariávei
 
 Foi realizada a análise descritiva para cada covariável separadamente, por meio de gráficos de boxplots e tabelas resumindo algumas medidas descritivas, mas esta parte do estudo não será apresentada aqui por motivo de simplificação.
 
+• Análise de Regressão
+
+‣ Padronização das Variáveis
+
+Com base no conjunto de dados, observa-se que as covariáveis não possuem a mesma unidade de medida, uma vez que o imposto do imóvel X_1 foi medido em 100 USD, as covariáveis X_2 e X_3, Área do terreno e Área construída, respectivamente, foram medidas em 1.000 pés quadrados, a Idade da residência X_4 representada em anos e a variável resposta Y Preço de venda do imóvel medida em 1.000 USD. Sendo assim, com o intuito de deixar as variáveis em uma unidade de medida comum, realizou-se a padronização das mesmas.
+
+A partir da transformação correlação foi gerada a matriz com os valores das covariáveis e da variável resposta padronizada.
+
+Os valores das covariáveis e da variável resposta padronizados estão compreendidos no intervalo de -1 e 1. 
+
+Assim sendo, com as variáveis na mesma unidade de medida podemos utiliza-lás para as próximas etapas do estudo.
+
+‣ Análise da Existência de Multicolinearidade
+
+Quando as covariáveis presentes em um modelo de regressão são altamente correlacionadas dizemos que existe multicolinearidade, ou seja, elas explicam a variável resposta da mesma maneira. Nesta etapa é verificado a existência de multicolinearidade no modelo.
+
+Com base nos valores da diagonal da Inversa da Matriz de correlação verifica-se que VIF_4= 1.357404 é bem próximo de 1, dando indícios de ausência de colinearidade para a variável X_4 idade da residência. Para as demais covariáveis, repara-se que o VIF tem valores maiores, contudo, como nenhum é muito próximo de 10, foi decidido não excluir nenhuma covariável do modelo, porque apesar de ter sido verificado uma correlação significante entre algumas covariáveis, obteve-se um baixo valor de VIF para as covariáveis.
+
+‣ Análise de Resíduos no Modelo Completo
+
+Dessa forma, será verificado se as suposições de normalidade, homocedasticidade, linearidade e independência dos erros do modelo completo são atendidas através dos resíduos, então foram realizadas análises gráficas e aplicação de testes de hipóteses para comprovar essas suposições.
+
+⨀ Normalidade
+
+
 
