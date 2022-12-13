@@ -2,7 +2,7 @@
 
 Olá,
 
-Durante o segundo semestre do ano de 2020 cursei a disciplina de Análise de Regressão Linear na faculdade de estatística na UFSCar. Onde desenvolvi um modelo de regressão múltipla. Pretendo apresentar os resultados obtidos sobre este estudo por meio deste repositório.
+Durante o segundo semestre do ano de 2021 cursei a disciplina de Análise de Regressão Linear na faculdade de estatística na UFSCar. Onde desenvolvi um modelo de regressão múltipla. Pretendo apresentar os resultados obtidos sobre este estudo por meio deste repositório.
 
 ## Introdução
 
